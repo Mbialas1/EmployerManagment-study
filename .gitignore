@@ -1,0 +1,7 @@
+/EmployerManagment.Domain/bin
+/EmployerManagment.Domain/obj
+/Domain/bin
+/Domain/obj
+/EmployerManagment.DomainEvents/obj
+/EmployerManagment.DomainEvents/bin
+/.vs
