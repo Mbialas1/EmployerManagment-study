@@ -11,6 +11,11 @@ namespace EmployerManagment.Domain.Entities
         public string Title { get; private set; }
         public string Department { get; private set; }
 
+        public Position()
+        {
+            this.Title = string.Empty;
+            this.Department = string.Empty; 
+        }
         public Position(string title, string department)
         {
             Title = title;

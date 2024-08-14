@@ -1,6 +1,13 @@
+using EmployerManagment.Application.Commands.Commands;
+using EmployerManagment.Application.Commands.Handlers;
+using EmployerManagment.Domain.Services;
+using EmployerManagment.Infrastructure.Add;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateNewEmployeeCommand).Assembly));
+
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 
 builder.Services.AddControllers();
 

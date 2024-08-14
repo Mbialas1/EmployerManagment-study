@@ -13,9 +13,9 @@ namespace EmployerManagment.Domain.ValueObject
         public string PhoneNumber { get; init; }    
         public ContactInfo(string email, string phoneNumber)
         {
-            if(string.IsNullOrWhiteSpace(Email))
+            if(string.IsNullOrWhiteSpace(email))
                 throw new ArgumentException("Email cannot be empty", nameof(this.Email));
-            if (string.IsNullOrWhiteSpace(PhoneNumber))
+            if (string.IsNullOrWhiteSpace(phoneNumber))
                 throw new ArgumentException("Phone number cannot be empty", nameof(this.PhoneNumber));
 
             this.Email = email;

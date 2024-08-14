@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EmployerManagment.Application\EmployerManagment.Application.csproj" />
+    <ProjectReference Include="..\EmployerManagment.Infrastructure\EmployerManagment.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
