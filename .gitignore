@@ -5,3 +5,9 @@
 /EmployerManagment.DomainEvents/obj
 /EmployerManagment.DomainEvents/bin
 /.vs
+/EmployerManagment.Application/obj
+/EmployerManagment.Application/bin
+/EmployerManagment.Infrastructure/obj
+/EmployerManagment.Infrastructure/bin
+/EmployerManagment.API.Employment/obj
+/EmployerManagment.API.Employment/bin

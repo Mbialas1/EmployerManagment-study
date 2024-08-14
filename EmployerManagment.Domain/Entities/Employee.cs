@@ -30,14 +30,14 @@ namespace EmployerManagment.Domain.Entities
                 HireDate = DateTime.UtcNow
             };
 
-            DomainEvents.Raise(new EmployeeCreated(employee.Id, employee.FirstName, employee.LastName));
+            //DomainEvents.Raise(new EmployeeCreated(employee.Id, employee.FirstName, employee.LastName));
 
             return employee;
         }
         public void ChangePosition(Position newPosition)
         {
-            PositionHistory.Add(new PositionChangeEvent(Position, newPosition, DateTime.UtcNow));
-            Position = newPosition;
+            //PositionHistory.Add(new PositionChangeEvent(Position, newPosition, DateTime.UtcNow));
+            //Position = newPosition;
         }
 
 
