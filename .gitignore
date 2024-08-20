@@ -11,3 +11,11 @@
 /EmployerManagment.Infrastructure/bin
 /EmployerManagment.API.Employment/obj
 /EmployerManagment.API.Employment/bin
+/PaycheckManagment.Application/obj
+/PaycheckManagment.Domain/obj
+/PaycheckManagment.Infrasctructure/obj
+/PaycheckManagmentAPI/obj
+/PaycheckManagmentAPI/bin/Debug/net8.0
+/PaycheckManagment.Infrasctructure/bin/Debug/net8.0
+/PaycheckManagment.Domain/bin/Debug/net8.0
+/PaycheckManagment.Application/bin/Debug/net8.0
