@@ -46,6 +46,24 @@ namespace EmployerManagment.Infrastructure.Add
             }
         }
 
+        public async Task<Employee> FindUserByFullName(string firstName, string lastName)
+        {
+            try
+            {
+                IList<Employee> tableEmployee = new List<Employee>();
+                using (Stream stream = FileDBHelper.GetStreamDBFile())
+                {
+                    tableEmployee = await JsonSerializer.DeserializeAsync<List<Employee>>(stream) ?? new List<Employee>();
+                }
+                Employee employee = tableEmployee.FirstOrDefault(f => f.FirstName == firstName && f.LastName == lastName);
+                return employee;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
         private void SaveInDB(object obj)
         {
             semaphore.Wait();

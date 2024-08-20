@@ -10,5 +10,6 @@ namespace EmployerManagment.Domain.Services
     public interface IEmployeeRepository
     {
         Task<long> AddNewEmployee(Employee employee);
+        Task<Employee> FindUserByFullName(string firstName, string lastName);
     }
 }

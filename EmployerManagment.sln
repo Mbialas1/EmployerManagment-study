@@ -21,11 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployerManagment.Domain", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployerManagment.DomainEvents", "EmployerManagment.DomainEvents\EmployerManagment.DomainEvents.csproj", "{D87AAB71-B55C-4281-830E-17E9DBADB890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployerManagment.Application", "EmployerManagment.Application\EmployerManagment.Application.csproj", "{63611922-9543-40F3-B929-6166CC537A0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployerManagment.Application", "EmployerManagment.Application\EmployerManagment.Application.csproj", "{63611922-9543-40F3-B929-6166CC537A0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployerManagment.API.Employment", "EmployerManagment.API.Employment\EmployerManagment.API.Employment.csproj", "{89502B85-1319-4673-BB39-9C08764BBB75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployerManagment.API.Employment", "EmployerManagment.API.Employment\EmployerManagment.API.Employment.csproj", "{89502B85-1319-4673-BB39-9C08764BBB75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployerManagment.Infrastructure", "EmployerManagment.Infrastructure\EmployerManagment.Infrastructure.csproj", "{F316ABC2-2CBA-4DEE-BF73-30D44A153968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployerManagment.Infrastructure", "EmployerManagment.Infrastructure\EmployerManagment.Infrastructure.csproj", "{F316ABC2-2CBA-4DEE-BF73-30D44A153968}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
