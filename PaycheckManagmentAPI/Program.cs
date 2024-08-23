@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(AddPaymentToUserCommand).Assembly));
 
 builder.Services.AddScoped<IPaycheckRepository, PaycheckRepository>();
+builder.Services.AddScoped<IEmployerManagmentService, EmployerManagmentService>();
 
 builder.Services.AddCors(options =>
 {
